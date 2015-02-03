@@ -8,6 +8,8 @@ class PortfolioApplication extends Application {
 	use Application\TwigTrait;
 }
 
+$app = new PortfolioApplication();
+$app['debug'] = true;
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
 	'twig.path' => __DIR__.'/views',
@@ -15,10 +17,8 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
-$app = new Application();
-$app['debug'] = true;
 
 $app->get('/', function(){
-	return $app->rener('index.php.twig');
+	return $app->render('index.php.twig');
 });
 $app->run();

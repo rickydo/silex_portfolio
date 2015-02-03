@@ -1,1 +1,42 @@
-Hi There
+{% extends 'layouts/main.php.twig' %}
+
+{% block body}
+<div class="row">
+	<div class="column">
+		<ul>
+			<li><h2>Biologist turned web developer</h2></li>
+			<li><h2>Mechanically inclined</h2></li>
+			<li><h2>Building things that matter</h2></li>
+			<li><h2>Netflixing</h2></li>
+		</ul>
+	</div>
+	<div class="column">
+		<img src="../assets/img/me.jpg">
+		<div class="icon-bar five-up">
+			<a class="item">
+				<i class="fi-social-twitter"></i>
+			</a>
+		</div>
+	</div>
+	<div class="column">
+		<ul>
+			<li>Rails</li>
+			<li>JS 
+				<ul>
+					<li>AJAX</li>
+					<li>JQuery</li>
+				</ul>
+			</li>
+			<li>HTML, CSS, SASS</li>
+			<li>PHP 
+				<ul>
+					<li>Laravel, Composer, MySQL</li>
+					<li>Blade, Foundation</li>
+					<li>Eloquent, Twig</li>
+				</ul>
+			</li>
+			<li>XAMP, MAMP</li>
+		</ul>
+	</div>
+</div>
+{% endblock %}
