@@ -2,7 +2,8 @@
 
 
 {% block body %}
-	<div class="row">
+	<div class="container">
+		
 		<div class="column" id="top_left">
 			<ul>
 				<li>Biologist turned web developer</li>
@@ -11,6 +12,28 @@
 				<li>Netflixing</li>
 			</ul>
 		</div>
+		<div class="column" id="top_right">
+			Cover Letter Preview
+		</div>
+		
+		<div class="column" id="center_hub">
+			<!-- <img src="{{ app.request.getbaseurl }}/assets/img/me.jpg"> -->
+			<div>
+				<a class="item">
+					<i class="fi-social-twitter"></i>
+				</a>
+				<a class="item">
+					<i class="fi-social-facebook"></i>
+				</a>
+				<a class="item">
+					<i class="fi-social-github"></i>
+				</a>
+				<a class="item">
+					<i class="fi-mail"></i>
+				</a>
+			</div>
+		</div>
+		
 		<div class="column" id="bottom_left">
 			<ul>
 				<li>Rails</li>
@@ -31,28 +54,9 @@
 				<li>XAMP, MAMP</li>
 			</ul>
 		</div>
-		<div class="column" id="center_hub">
-			<!-- <img src="{{ app.request.getbaseurl }}/assets/img/me.jpg"> -->
-			<div>
-				<a class="item">
-					<i class="fi-social-twitter"></i>
-				</a>
-				<a class="item">
-					<i class="fi-social-facebook"></i>
-				</a>
-				<a class="item">
-					<i class="fi-social-github"></i>
-				</a>
-				<a class="item">
-					<i class="fi-mail"></i>
-				</a>
-			</div>
-		</div>
-		<div class="column" id="top_right">
-			Cover Letter Preview
-		</div>
 		<div class="column" id="bottom_right">
 			Projects Link, maybe a collage of projects
 		</div>
+			
 	</div>
 {% endblock %}
