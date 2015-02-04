@@ -1,42 +1,53 @@
-{% extends 'layouts/main.php.twig' %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<title>Ricky's Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	        <link href="{{ app.request.getbaseurl }}/assets/css/normalize.css" rel="stylesheet" media="screen">
 
-{% block body}
-<div class="row">
-	<div class="column">
-		<ul>
-			<li><h2>Biologist turned web developer</h2></li>
-			<li><h2>Mechanically inclined</h2></li>
-			<li><h2>Building things that matter</h2></li>
-			<li><h2>Netflixing</h2></li>
-		</ul>
-	</div>
-	<div class="column">
-		<img src="../assets/img/me.jpg">
-		<div class="icon-bar five-up">
-			<a class="item">
-				<i class="fi-social-twitter"></i>
-			</a>
+	    <link href="/personal_website/web/assets/css/foundation.min.css" rel="stylesheet" media="screen">
+	    <link href="/personal_website/web/assets/css/foundation-icons.css" rel="stylesheet" media="screen">
+	    <link href="/personal_website/web/assets/css/my-styles.css" rel="stylesheet" media="screen">
+	    <script src="/personal_website/web/assets/js/modernizr.js"></script>
+	</head>	
+	<body>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><h2>Biologist turned web developer</h2></li>
+					<li><h2>Mechanically inclined</h2></li>
+					<li><h2>Building things that matter</h2></li>
+					<li><h2>Netflixing</h2></li>
+				</ul>
+			</div>
+			<div class="column">
+				<!-- <img src="../assets/img/me.jpg"> -->
+				<div class="icon-bar five-up">
+					<a class="item">
+						<i class="fi-social-twitter"></i>
+					</a>
+				</div>
+			</div>
+			<div class="column">
+				<ul>
+					<li>Rails</li>
+					<li>JS 
+						<ul>
+							<li>AJAX</li>
+							<li>JQuery</li>
+						</ul>
+					</li>
+					<li>HTML, CSS, SASS</li>
+					<li>PHP 
+						<ul>
+							<li>Laravel, Composer, MySQL</li>
+							<li>Blade, Foundation</li>
+							<li>Eloquent, Twig</li>
+						</ul>
+					</li>
+					<li>XAMP, MAMP</li>
+				</ul>
+			</div>
 		</div>
-	</div>
-	<div class="column">
-		<ul>
-			<li>Rails</li>
-			<li>JS 
-				<ul>
-					<li>AJAX</li>
-					<li>JQuery</li>
-				</ul>
-			</li>
-			<li>HTML, CSS, SASS</li>
-			<li>PHP 
-				<ul>
-					<li>Laravel, Composer, MySQL</li>
-					<li>Blade, Foundation</li>
-					<li>Eloquent, Twig</li>
-				</ul>
-			</li>
-			<li>XAMP, MAMP</li>
-		</ul>
-	</div>
-</div>
-{% endblock %}
+	</body>
+</html>
