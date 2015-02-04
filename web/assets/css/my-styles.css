@@ -1,7 +1,7 @@
 /* Layout
 ================================ */
 
-hr {
+/*hr {
 	margin: 40px 0;
 }
 .panel,
@@ -23,12 +23,37 @@ hr {
 h3,
 h4 {
 	margin-bottom: .8em;
+}*/
+
+/* section formatting*/
+.column {
+	border: black 1px solid;
+}
+
+.column #top_left{
+	border-top-left-radius: 10px; 
+}
+
+.column #bottom_left {
+
+}
+
+#center_hub.column {
+	border-radius: 10px;
+}
+
+.column #top_right{
+
+}
+
+.column #bottom_right{
+
 }
 
 /* Links
 ================================ */
 
-.panel.callout a {
+/*.panel.callout a {
 	color: white;
 }
 
@@ -36,14 +61,14 @@ h4 {
 ================================ */
 
 [class*="fi-"] {
-  font-size: 3.4em;
+  font-size: 2em;
   text-align: center;
   color: #2ba6cb;
-  display: block;
+  /*display: block;*/
   margin-top: 30px;
 }
 
-/* Media Queries
+/* Media Queries*/
 ================================ */
 
 @media (max-width: 768px) {
