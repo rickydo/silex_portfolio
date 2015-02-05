@@ -3,60 +3,56 @@
 
 {% block body %}
 	<div class="container">
-		
-		<div class="column" id="top_left">
-			<ul>
-				<li>Biologist turned web developer</li>
-				<li>Mechanically inclined</li>
-				<li>Building things with purpose</li>
-				<li>Netflixing</li>
-			</ul>
-		</div>
-		<div class="column" id="top_right">
-			Cover Letter Preview
-		</div>
-		
-		<div class="column" id="center_hub">
-			<!-- <img src="{{ app.request.getbaseurl }}/assets/img/me.jpg"> -->
-			<div>
-				<a class="item">
-					<i class="fi-social-twitter"></i>
-				</a>
-				<a class="item">
-					<i class="fi-social-facebook"></i>
-				</a>
-				<a class="item">
-					<i class="fi-social-github"></i>
-				</a>
-				<a class="item">
-					<i class="fi-mail"></i>
-				</a>
+		<div class="top_row">
+			<div class="column">
+				<ul>
+					<li>Biologist turned web developer</li>
+					<li>Mechanically inclined</li>
+					<li>Building things with purpose</li>
+					<li>Netflixing</li>
+				</ul>
+			</div>
+			<div class="column">
+				Cover Letter Preview
 			</div>
 		</div>
-		
-		<div class="column" id="bottom_left">
-			<ul>
-				<li>Rails</li>
-				<li>JS 
-					<ul>
-						<li>AJAX</li>
-						<li>JQuery</li>
-					</ul>
-				</li>
-				<li>HTML, CSS, SASS</li>
-				<li>PHP 
-					<ul>
-						<li>Laravel, Composer, MySQL</li>
-						<li>Blade, Foundation</li>
-						<li>Eloquent, Twig</li>
-					</ul>
-				</li>
-				<li>XAMP, MAMP</li>
-			</ul>
+		<div class="middle_row">
+			<div class="wheel_hub column">
+				<div class="icon_row">
+					<i class="fi-social-twitter"></i>
+					<i class="fi-social-facebook"></i>
+				</div>
+				<div class="icon_row">
+					<i class="fi-social-github"></i>
+					<i class="fi-mail"></i>
+				</div>
+			</div>
 		</div>
-		<div class="column" id="bottom_right">
-			Projects Link, maybe a collage of projects
-		</div>
-			
+		<div class="bottom_row">
+			<div class="column">
+				<ul>
+					<li>Rails</li>
+					<li>JS 
+						<ul>
+							<li>AJAX</li>
+							<li>JQuery</li>
+						</ul>
+					</li>
+					<li>HTML, CSS, SASS</li>
+					<li>PHP 
+						<ul>
+							<li>Laravel, Composer, MySQL</li>
+							<li>Blade, Foundation</li>
+							<li>Eloquent, Twig</li>
+						</ul>
+					</li>
+					<li>XAMP, MAMP</li>
+				</ul>
+			</div>
+			<div class="column">
+				Projects Link, maybe a collage of projects
+			</div>
+		</div>		
 	</div>
+
 {% endblock %}
