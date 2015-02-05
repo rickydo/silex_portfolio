@@ -62,51 +62,6 @@ i.fi-social-twitter, i.fi-social-facebook, i.fi-social-github, i.fi-mail{
 	margin-right: 10px;
 }
 
-/*.top_half{
-	width:100%;
-}
-.bottom_half{
-	width:100%;
-}
-.column {
-	border: black 1px solid;
-	height: 400px;
-	width : 400px;
-	z-index: 1;
-	display: block;
-}*/
-
-/*#top_left.column{
-	border-top-left-radius: 400px; 
-	padding-left: 100px;
-	padding-top: 170px;
-}
-
-#bottom_left.column  {
-	border-bottom-left-radius: 400px; 
-	padding-left: 125px;
-	padding-top: 10px;
-}
-
-#center_hub.column {
-	border-radius: 250px;
-	height: 150px;
-	width: 150px;
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	z-index: 1000;
-}
-
-#top_right.column {
- 	border-top-right-radius: 400px;  
-}
-
-#bottom_right.column {
-	border-bottom-right-radius: 400px;
-
-}*/
-
 /* Links
 ================================ */
 
