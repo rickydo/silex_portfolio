@@ -3,6 +3,10 @@
 * {
 	box-sizing: border-box;
 }
+
+li {
+	font-size: 0.8em;
+}
 /*hr {
 	margin: 40px 0;
 }
@@ -30,11 +34,13 @@ h4 {
 /* container formatting*/
 .container{
 	width: 60%;
-	height: 700px;
 	margin: 0 auto;
 	margin-top: 50px;
-	border: solid black 1px;
-	/*border-radius: 805px;*/
+	border: solid black 40px;
+	border-radius: 100%;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 50%;
 }
 
 /*column formatting*/
@@ -43,14 +49,35 @@ h4 {
 	display: block;
 	width: 50%;
 	height:300px;
-	border: black 1px solid;
+	/*border: black 1px solid;*/
 }
+
+#intro.column{
+	padding-top: 18%;
+	padding-left: 15%;
+}
+
+#cover_letter.column{
+	padding-bottom:15%;
+	padding-left: 20%;
+}
+
+#skills.column{
+	padding-top: 15%;
+	padding-left: 15%;
+}
+
+#projects.column{
+	/*padding-bottom: 15%;*/
+	padding-right: 15%;
+}
+
 
 /*Wheel hub formatting*/
 .wheel_hub{
 	width:100%;
 	height: 100px;
-	border: solid black 1px;
+	/*border: solid black 1px;*/
 	text-align: center;
 }
 
