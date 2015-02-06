@@ -2,18 +2,27 @@
 ================================ */
 * {
 	box-sizing: border-box;
+	z-index: 1000;
 }
 
 li {
 	font-size: 0.8em;
 }
 
+.wheel{
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	/*display: block;*/
+	/*margin: 0 auto;*/
+
+}
 /* container formatting*/
 .container{
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	margin-top: 50px;
-	border: solid black 40px;
+	border: solid black 1px;
 	border-radius: 100%;
 	height: 0;
 	overflow: hidden;
@@ -26,7 +35,6 @@ li {
 	display: block;
 	width: 50%;
 	height:0;
-	/*overflow: hidden;*/
 	padding-bottom: 20%;
 }
 
@@ -94,4 +102,10 @@ i.fi-social-twitter, i.fi-social-facebook, i.fi-social-github, i.fi-mail{
 	}
 }
 
-
+/*
+div {
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+*/
