@@ -1,84 +1,43 @@
 /* Layout
 ================================ */
-* {
-	box-sizing: border-box;
-	z-index: 1000;
+ul {
+	list-style-type: none;
 }
 
-li {
-	font-size: 0.8em;
-}
 
-.wheel{
-	width: 100%;
-	z-index: -1;
-	position: absolute;
-	/*display: block;*/
-	/*margin: 0 auto;*/
-
-}
-/* container formatting*/
-.container{
-	width: 80%;
+img.th.radius.me{
+	max-width: 20%;
 	margin: 0 auto;
-	margin-top: 50px;
-	border: solid black 1px;
-	border-radius: 100%;
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 50%;
+	margin-bottom: 20px;
 }
 
-/*column formatting*/
-.column {
-	position: relative;
-	display: block;
-	width: 50%;
-	height:0;
-	padding-bottom: 20%;
-}
+/*data orbit formatting
+==============================*/
 
-#intro.column{
-	padding-top: 18%;
-	padding-left: 15%;
-}
-
-#cover_letter.column{
-	padding-bottom:15%;
-	padding-left: 20%;
-}
-
-#skills.column{
-	padding-top: 15%;
-	padding-left: 15%;
-}
-
-#projects.column{
-	padding-right: 15%;
-}
-
-
-/*Wheel hub formatting*/
-.wheel_hub{
-	width:100%;
-	height: 0;
-	/*overflow:hidden;*/
-	padding-bottom:20%;
+.orbit-container{
 	text-align: center;
+	padding: 30px 0;
+	margin: 20px 0 0;
+	background: whitesmoke;
 }
 
-/*icon formatting*/
-i.fi-social-twitter, i.fi-social-facebook, i.fi-social-github, i.fi-mail{
-	color:black;
+.button-group,
+.orbit-bullets {
 	display: inline-block;
-	margin-top: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Links
 ================================ */
 
-/*.panel.callout a {
+a.topbar_title{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.panel.callout a {
 	color: white;
 }
 
@@ -93,7 +52,7 @@ i.fi-social-twitter, i.fi-social-facebook, i.fi-social-github, i.fi-mail{
   margin-top: 30px;
 }
 
-/* Media Queries*/
+/* Media Queries
 ================================ */
 
 @media (max-width: 768px) {
@@ -102,10 +61,4 @@ i.fi-social-twitter, i.fi-social-facebook, i.fi-social-github, i.fi-mail{
 	}
 }
 
-/*
-div {
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
-}
-*/
+

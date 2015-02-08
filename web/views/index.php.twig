@@ -2,60 +2,61 @@
 
 
 {% block body %}
-	<div class="container">
-		<div class="wheel">
-			<img src="{{app.request.getbaseurl}}/assets/img/te37.png">
-		</div>
-		<div class="top_row">
-			<div class="column" id="intro">
-				<ul>
-					<li>Biologist turned web developer</li>
-					<li>Mechanically inclined</li>
-					<li>Building things with purpose</li>
-					<li>Netflixing</li>
-				</ul>
-			</div>
-			<div class="column" id="skills">
-				<ul>
-					<li>Rails</li>
-					<li>JS 
-						<ul>
-							<li>AJAX</li>
-							<li>JQuery</li>
-						</ul>
+	<!-- top bar	 -->
+		<div class="contain-to-grid">
+			<nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
+				<ul class="center">
+					<li class="name">
+						<h1>
+							<a class="topbar_title" href="#">Ricky Do</a>
+						</h1>
 					</li>
-					<li>HTML, CSS, SASS</li>
-					<li>PHP 
-						<ul>
-							<li>Laravel, Composer, MySQL</li>
-							<li>Blade, Foundation</li>
-							<li>Eloquent, Twig</li>
-						</ul>
-					</li>
-					<li>XAMP, MAMP</li>
 				</ul>
-			</div>
+			</nav>
 		</div>
-		<div class="middle_row">
-			<div class="wheel_hub column">
-				<div class="icon_row">
-					<a href="https://twitter.com/statusd0" target="_blank"><i class="fi-social-twitter"></i></a>
-					<a href="https://www.facebook.com/phucee" target="_blank"><i class="fi-social-facebook"></i></a>
+	<!-- end top bar -->
+
+	<!-- about me slider -->
+		<div class="row">
+			<div class="medium-12 column" data-orbit>
+				<div>
+					<img class="th radius me" src="{{app.request.getbaseurl}}/assets/img/ricky.jpg">
+					<ul class="intro_bullets">
+						<li>Biologist turned Web Developer</li>
+						<li>Mechanically Inclined</li>
+						<li>Avid Netflixer</li>
+					</ul>
 				</div>
-				<div class="icon_row">
-					<a href="https://github.com/rickydo" target="_blank"><i class="fi-social-github"></i></a>
-					<a href="mailto:ricky.dop@gmail.com" target="_blank"><i class="fi-mail"></i></a>
+
+				<div>
+					<h2>Bio:</h2>
+					
+				</div>
+
+				<div>
+					<h2>Skills</h2>
+					<div class="large-6 column">
+						<ul>
+							<li>Ruby on Rails</li>
+							<li>HTML, CSS, SCSS</li>
+							<li>Foundation 4/5</li>
+							<li>JS: Ajax, JQuery</li>
+							<li>Rspec, BDD, Git</li>
+						</ul>
+					</div>
+					<div class="large-6 column">
+						<ul>
+							<li>PHP Laravel</li>
+							<li>Composer, Silex</li>
+							<li>Blade, Twig</li>
+							<li>LAMP, MySql</li>
+							<li>Agile Development</li>
+						</ul>
+					</div>
 				</div>
 			</div>
+
 		</div>
-		<div class="bottom_row">
-			<div class="column" id="cover_letter">
-				Cover Letter Preview
-			</div>
-			<div class="column" id="projects">
-				Projects Link, maybe a collage of projects
-			</div>
-		</div>		
-	</div>
+	<!-- about me end -->
 
 {% endblock %}
