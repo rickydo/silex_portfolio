@@ -3,22 +3,14 @@
 
 {% block body %}
 	<!-- top bar	 -->
-		<div class="contain-to-grid">
-			<nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
-				<ul class="title-area">
-					<li class="name">
-						<h1>
-							<a class="topbar_title" href="#">Ricky Do</a>
-						</h1>
-					</li>
-				</ul>
-			</nav>
+		<div class="site_title">
+			<h1 class="my_name">Ricky Do</h1>
 		</div>
 	<!-- end top bar -->
 
 	<!-- about me slider -->
 		<div class="row">
-			<div class="medium-12 column" data-orbit>
+			<div class="medium-12 column top" data-orbit>
 				<div>
 					<img class="th radius me" src="{{ app.request.getbaseurl }}/assets/img/ricky.jpg">
 					<ul class="intro_bullets">
@@ -127,7 +119,7 @@
 	<!-- project modals -->
 		<div id="qawareModal" class="reveal-modal full" data-reveal>
       		<p>QAware is a cross-platform application that is changing the way quality assurance and quality control is conducted across many industries. By integrating iBeacon technology with a native iOS app written in Objective-C, QAware ensures that inspections happen when, where, and by whom they are supposed to happen. This was our final project at DBC.</p>
-      		<p><a href="https://qaware.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<p class="heroku_button"><a href="https://qaware.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
       		<div class="medium-12 column" data-orbit>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qaware.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-dashboard.png"></div>
@@ -138,9 +130,9 @@
 			</div>
 	      	<a class="close-reveal-modal">&#215;</a>
 	    </div>
-	    <div id="autoModal" class="reveal-modal full" data-reveal>
+	    <div id="wtModal" class="reveal-modal full" data-reveal>
       		<p>A writing collaboration engine where users can contribute to branches of a project as well as view a tree visualization of a project's evolution. Working Title is like a Github for songs, stories, and poetry.</p>
-      		<p><a href="https://autoupkeep.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<p class="heroku_button"><a href="https://autoupkeep.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
       		<div class="medium-12 column" data-orbit>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-home.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-all-projects.png"></div>
@@ -154,7 +146,7 @@
 	    </div>
 	    <div id="autoModal" class="reveal-modal full" data-reveal>
       		<p>AutoUpkeep is a webapp which allows users to signup and keep track of vehicle maintenance records online.</p>
-      		<p><a href="https://autoupkeep.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<p class="heroku_button"><a href="https://autoupkeep.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
       		<div class="medium-12 column" data-orbit>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/auto-home.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/auto-home-logged-in.png"></div>
@@ -166,7 +158,7 @@
 	    </div>
 	    <div id="fcModal" class="reveal-modal full" data-reveal>
       		<p>TheFlashCards is a small Rails webapp I made for my baby cousins. It simply flips through each card in the appropiate categories.</p>
-      		<p><a href="https://theflashcards.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<p class="heroku_button"><a href="https://theflashcards.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
       		<div class="medium-12 column" data-orbit>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/fc-home.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/fc-card.png"></div>

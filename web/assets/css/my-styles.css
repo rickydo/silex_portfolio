@@ -1,5 +1,13 @@
 /* Layout
 ================================ */
+body {
+	background-image: url("../img/parchment.jpg");
+	background-color: #F3E2A9;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
 img.th.radius.me{
 	max-width: 20%;
 	margin: 0 auto;
@@ -15,8 +23,24 @@ img.project_img {
 	margin-bottom: 20px;
 }
 
+div.orbit-container{
+	border-radius: 20px;
+}
+
+.reveal-modal.full {
+	border-radius: 20px;
+}
+
+.large-6.column{
+	margin-top: 20px;
+}
+
 /*text formatting
 ===========================*/
+h3 {
+	font-weight:800;
+}
+
 ul {
 	list-style-type: none;
 	text-align: center;
@@ -28,7 +52,13 @@ li.list_title{
 }
 
 a.button.radius {
+	color: #F3E2A9;
+}
+
+h1.my_name {
 	text-align: center;
+	font-family: 'Pacifico', cursive;
+	margin-top: 15px;
 }
 
 /*data orbit formatting
@@ -59,6 +89,10 @@ a.topbar_title{
 
 .panel.callout a {
 	color: white;
+}
+
+p.heroku_button {
+	text-align: center;
 }
 
 /* Icons
