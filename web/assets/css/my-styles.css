@@ -1,16 +1,5 @@
 /* Layout
 ================================ */
-ul {
-	list-style-type: none;
-	text-align: center;
-}
-
-li.list_title{
-	font-size: 2em;
-	font-weight: 200;
-}
-
-
 img.th.radius.me{
 	max-width: 20%;
 	margin: 0 auto;
@@ -23,6 +12,23 @@ img.project_img {
 	height:300px;
 	padding: 10px;
 	border-radius:20px;
+	margin-bottom: 20px;
+}
+
+/*text formatting
+===========================*/
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+li.list_title{
+	font-size: 2em;
+	font-weight: 200;
+}
+
+a.button.radius {
+	text-align: center;
 }
 
 /*data orbit formatting

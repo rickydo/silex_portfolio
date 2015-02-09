@@ -16,6 +16,9 @@
 	    <script src="{{ app.request.getbaseurl }}/assets/js/foundation.min.js"></script>
 	    <script>
 	      $(document).foundation();
+	      $('.reveal-modal').on('opened', function(){
+    	  $(window).trigger('resize');
+		});
 	    </script> 
 	</body>
 </html>

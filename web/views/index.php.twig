@@ -96,8 +96,10 @@
 		<div class="row">
 			<ul >
 				<li class="large-6 column">
-					<h3>QAware</h3>
-					<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/qaware.png">
+					<a href="#" data-reveal-id="qawareModal">
+						<h3>QAware</h3>
+						<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/qaware.png">
+					</a>
 				</li>
 				<li class="large-6 column">
 					<h3>Working-Title</h3>
@@ -115,6 +117,24 @@
 		</div>
 
 	<!-- projects end -->
+
+	<!-- project modals -->
+		<div id="qawareModal" class="reveal-modal full" data-reveal>
+      		<p>QAware is a cross-platform application that is changing the way quality assurance and quality control is conducted across many industries. By integrating iBeacon technology with a native iOS app written in Objective-C, QAware ensures that inspections happen when, where, and by whom they are supposed to happen. This was our final project at DBC.</p>
+      		<a href="https://qaware.herokuapp.com" class="button radius">Visit on Heroku</a>
+      		<div class="medium-12 column" data-orbit>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qaware.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-dashboard.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qaware-completed.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-completed-form.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-graphs.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-employees.png"></div>
+			</div>
+      	<a class="close-reveal-modal">&#215;</a>
+    </div>
+	<!-- project models end -->
+
+
 
 
 {% endblock %}
