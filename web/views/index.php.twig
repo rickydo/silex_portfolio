@@ -102,8 +102,10 @@
 					</a>
 				</li>
 				<li class="large-6 column">
-					<h3>Working-Title</h3>
-					<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/wt-home.png">
+					<a href="#" data-reveal-id="wtModal">
+						<h3>Working-Title</h3>
+						<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/wt-home.png">
+					</a>
 				</li>
 				<li class="large-6 column">
 					<h3>AutoUpkeep</h3>
@@ -121,7 +123,7 @@
 	<!-- project modals -->
 		<div id="qawareModal" class="reveal-modal full" data-reveal>
       		<p>QAware is a cross-platform application that is changing the way quality assurance and quality control is conducted across many industries. By integrating iBeacon technology with a native iOS app written in Objective-C, QAware ensures that inspections happen when, where, and by whom they are supposed to happen. This was our final project at DBC.</p>
-      		<a href="https://qaware.herokuapp.com" class="button radius">Visit on Heroku</a>
+      		<p><a href="https://qaware.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
       		<div class="medium-12 column" data-orbit>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qaware.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-dashboard.png"></div>
@@ -130,8 +132,22 @@
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-graphs.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/qa-employees.png"></div>
 			</div>
-      	<a class="close-reveal-modal">&#215;</a>
-    </div>
+	      	<a class="close-reveal-modal">&#215;</a>
+	    </div>
+	    <div id="wtModal" class="reveal-modal full" data-reveal>
+      		<p>A writing collaboration engine where users can contribute to branches of a project as well as view a tree visualization of a project's evolution. Working Title is like a Github for songs, stories, and poetry.</p>
+      		<p><a href="https://working--title.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<div class="medium-12 column" data-orbit>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-home.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-all-projects.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-profile.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-story.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-top-5.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-song.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-login.png"></div>
+			</div>
+	      	<a class="close-reveal-modal">&#215;</a>
+	    </div>
 	<!-- project models end -->
 
 
