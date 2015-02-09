@@ -108,12 +108,16 @@
 					</a>
 				</li>
 				<li class="large-6 column">
-					<h3>AutoUpkeep</h3>
-					<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/auto-home.png">
+					<a href="#" data-reveal-id="autoModal">
+						<h3>AutoUpkeep</h3>
+						<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/auto-home.png">
+					</a>
 				</li> 
 				<li class="large-6 column">
-					<h3>TheFlashCards</h3>
-					<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/fc-home.png ">
+					<a href="#" data-reveal-id="fcModal">
+						<h3>TheFlashCards</h3>
+						<img class="th project_img" src="{{ app.request.getbaseurl }}/assets/img/fc-home.png ">
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -134,9 +138,9 @@
 			</div>
 	      	<a class="close-reveal-modal">&#215;</a>
 	    </div>
-	    <div id="wtModal" class="reveal-modal full" data-reveal>
+	    <div id="autoModal" class="reveal-modal full" data-reveal>
       		<p>A writing collaboration engine where users can contribute to branches of a project as well as view a tree visualization of a project's evolution. Working Title is like a Github for songs, stories, and poetry.</p>
-      		<p><a href="https://working--title.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<p><a href="https://autoupkeep.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
       		<div class="medium-12 column" data-orbit>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-home.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-all-projects.png"></div>
@@ -145,6 +149,28 @@
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-top-5.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-song.png"></div>
 				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/wt-login.png"></div>
+			</div>
+	      	<a class="close-reveal-modal">&#215;</a>
+	    </div>
+	    <div id="autoModal" class="reveal-modal full" data-reveal>
+      		<p>AutoUpkeep is a webapp which allows users to signup and keep track of vehicle maintenance records online.</p>
+      		<p><a href="https://autoupkeep.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<div class="medium-12 column" data-orbit>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/auto-home.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/auto-home-logged-in.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/auto-vehicle.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/auto-change.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/auto-signup.png"></div>
+			</div>
+	      	<a class="close-reveal-modal">&#215;</a>
+	    </div>
+	    <div id="fcModal" class="reveal-modal full" data-reveal>
+      		<p>TheFlashCards is a small Rails webapp I made for my baby cousins. It simply flips through each card in the appropiate categories.</p>
+      		<p><a href="https://theflashcards.herokuapp.com" target="_blank" class="button radius">Visit on Heroku</a></p>
+      		<div class="medium-12 column" data-orbit>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/fc-home.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/fc-card.png"></div>
+				<div><img class="modal_img" src="{{ app.request.getbaseurl }}/assets/img/fc-card2.png"></div>
 			</div>
 	      	<a class="close-reveal-modal">&#215;</a>
 	    </div>
