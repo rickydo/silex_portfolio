@@ -15,6 +15,14 @@ img.th.radius.me{
 	max-width: 20%;
 	margin: 0 auto;
 	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+img.project_img {
+	width:300px;
+	height:300px;
+	padding: 10px;
+	border-radius:20px;
 }
 
 /*data orbit formatting
