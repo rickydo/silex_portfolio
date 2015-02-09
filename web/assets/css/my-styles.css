@@ -4,7 +4,7 @@ body {
 	background-image: url("../img/parchment.jpg");
 	background-color: #F3E2A9;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 
 
